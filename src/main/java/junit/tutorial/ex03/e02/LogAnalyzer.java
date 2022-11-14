@@ -6,7 +6,7 @@ import java.util.Map;
 public class LogAnalyzer {
 	
 	LogLoader logLoader = new LogLoader();
-	
+
 	public Object analyze(String file) {
 		try {
 			Map<String, String> rawData = logLoader.load(file);
@@ -15,9 +15,9 @@ public class LogAnalyzer {
 			throw new AnalyzeException(e);
 		}
 	}
-	
+
 	private Object doAnalyze(Map<String, String> rawData) {
-		// ‰¼ŽÀ‘•
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		return new Object();
 	}
 	
